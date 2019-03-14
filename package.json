@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "my-vue-app",
+  "productName": "PLQ chat app",
+  "description": "My ace Vue project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single"
+  },
+  "author": {
+    "name": "Valentina Adami",
+    "email": "valeadami@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "offline-plugin": "^4.8.0",
+    "promise-polyfill": "^6.0.2",
+    "querystring": "^0.2.0",
+    "utf8": "^3.0.0",
+    "vue-beautiful-chat": "^2.2.0",
+    "vue-router": "^3.0.2",
+    "vue-sessionstorage": "^1.0.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "poi-preset-offline": "^9.0.0",
+    "sass-loader": "^7.1.0",
+    "serve": "^6.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
